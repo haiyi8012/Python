@@ -12,7 +12,9 @@ import s3fs
 import sagemaker
 from sagemaker import get_execution_role
 ```
- 
+适用于 Python 的 AWS 开发工具包 (Boto3)
+pip install boto3
+
  
  
  
