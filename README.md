@@ -100,7 +100,7 @@ print(f(10))
 print(time)
 print(f.__closure__[0].cell_contents)
 ```
-
+装饰器( “语法糖”)
 
 
 
