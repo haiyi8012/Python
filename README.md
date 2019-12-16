@@ -101,8 +101,32 @@ print(time)
 print(f.__closure__[0].cell_contents)
 ```
 装饰器( “语法糖”)
+```
+# 函数式编程实现
+import time
+def punch():
+    print('昵称：两点水  部门：做鸭事业部 上班打卡成功')
+def add_time(func):
+    print(time.strftime('%Y-%m-%d', time.localtime(time.time())))
+    func()
+add_time(punch)
 
+# 装饰器模式 实现
+import time
+def decorator(func):
+    def punch():
+        print(time.strftime('%Y-%m-%d', time.localtime(time.time())))
+        func()
 
+    return punch
+
+@decorator
+def punch():
+    print('昵称：两点水  部门：做鸭事业部 上班打卡成功')
+
+punch()
+```
+Django(发音：[`dʒæŋɡəʊ]) 是用python语言写的开源web开发框架
 
 
 
