@@ -3,6 +3,17 @@
 **dict set **
 **lambda 来创建匿名函数 **
  yield 的函数被称为生成器（generator）
+ =====
+ s3sf -- S3FS builds on **boto3** to provide a convenient Python filesystem interface for S3.
+ pip install s3fs
+```
+import boto3
+import s3fs
+import sagemaker
+from sagemaker import get_execution_role
+```
+ 
+ 
  
  
  
