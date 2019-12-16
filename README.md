@@ -47,10 +47,39 @@ print(fu.__class__.__class__)
 print(mEat.__class__.__class__)
 
 ```
- 
- 
- 
+类 Process
+创建进程的类：Process([group [, target [, name [, args [, kwargs]]]]])
 
+target 表示调用对象
+args 表示调用对象的位置参数元组
+kwargs表示调用对象的字典
+name为别名
+group实质上不使用
+
+正则表达式：
+Python 给我们提供了 re 模块来实现正则表达式的所有功能
+
+```
+import re
+
+# 设定一个常量
+a = '两点水|twowater|liangdianshui|草根程序员|ReadingWithU'
+
+# 正则表达式
+findall = re.findall('两点水', a)
+print(findall)
+
+if len(findall) > 0:
+    print('a 含有“两点水”这个字符串')
+else:
+    print('a 不含有“两点水”这个字符串')
+```
+ 
+ 
+```
+
+end::
+```
 IT 行业相对于一般传统行业，发展更新速度更快，一旦停止了学习，很快就会被行业所淘汰，但是，我们要清楚：淘汰的永远只是那些初级水平的从业者，过硬技术的从业者永远都是稀缺的。因此对于学习，我们还是要踏踏实实的。
 
 
