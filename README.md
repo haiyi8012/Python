@@ -1,4 +1,6 @@
-# mark
+## mark
+virtualenv python 虚拟环境
+廖雪峰官网（https://www.liaoxuefeng.com/wiki/1016959663602400/1019273143120480）
 **列表（List）和元组（tuple）**
 **dict set **
 **lambda 来创建匿名函数 **
