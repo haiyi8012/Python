@@ -1,12 +1,15 @@
 ## mark
-
+------------
 **列表（List）和元组（tuple）**
 **dict set **
 **lambda 来创建匿名函数 **
  yield 的函数被称为生成器（generator）
- =====
- 
- 
+=====
+安装django
+```
+pip install django==1.11.4
+```
+
 virtualenv python 虚拟环境
 [廖雪峰官网](https://www.liaoxuefeng.com/wiki/1016959663602400/1019273143120480)
 [关于虚拟环境创建与删除](https://www.jianshu.com/p/a83a8f5d68dd?utm_campaign=maleskine&utm_content=note&utm_medium=writer_share&utm_source=weibo)
