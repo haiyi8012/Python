@@ -1,6 +1,5 @@
 ## mark
-virtualenv python 虚拟环境
-廖雪峰官网（https://www.liaoxuefeng.com/wiki/1016959663602400/1019273143120480）
+
 **列表（List）和元组（tuple）**
 **dict set **
 **lambda 来创建匿名函数 **
@@ -8,6 +7,9 @@ virtualenv python 虚拟环境
  =====
  s3sf -- S3FS builds on **boto3** to provide a convenient Python filesystem interface for S3.
  pip install s3fs
+ 
+virtualenv python 虚拟环境
+[廖雪峰官网](https://www.liaoxuefeng.com/wiki/1016959663602400/1019273143120480)
 ```
 import boto3
 import s3fs
